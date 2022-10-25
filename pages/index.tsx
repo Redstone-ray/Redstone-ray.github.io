@@ -52,17 +52,17 @@ const IndexPage = ({ initialSteamPersonaName, steamPersonaNameUrl }: PropsWithCh
         <Header
             profileName={
                 <>
-                    amphi
+                    Ric
                     <ProfileNameStandout
                         backgroundColor="hsla(0, 100%, 82%, 0.25)"
-                        href="https://en.wikipedia.org/wiki/Neon"
-                        hoverRuby="ね"
+                        href="https://en.wikipedia.org/wiki/Hydrogen"
+                        hoverRuby="氢"
                         hoverColor="hsla(0, 100%, 82%, 0.75)"
                         ruby="10"
                     >
-                        ne
+                        H
                     </ProfileNameStandout>
-                    ko
+                    ard Ding
                 </>
             }
         >
@@ -72,9 +72,9 @@ const IndexPage = ({ initialSteamPersonaName, steamPersonaNameUrl }: PropsWithCh
             </LabelGroup>
 
             <LabelGroup icon={IoLanguage} title="languages">
-                <LabelItem>汉语</LabelItem>
-                <LabelItem>漢語</LabelItem>
                 <LabelItem>English</LabelItem>
+                <LabelItem>汉语</LabelItem>
+                <LabelItem>Français</LabelItem>
             </LabelGroup>
 
             <LabelGroup icon={IoSchool} title="status">
